@@ -126,7 +126,7 @@ function Villager(game) {
 }
 
 Villager.prototype = new Entity();
-Villager.prototype.constructor = DarkSaber;
+Villager.prototype.constructor = Villager;
 
 Villager.prototype.update = function () {
     if (this.moving) {
